@@ -1,12 +1,12 @@
-import './index.css'
-
-function App() {
-
+import React from 'react'
+import Body from './components/Body'
+const App = () => {
   return (
-    <div className='text-3xl text-center mt-10 bg-green-500'>
-      Namaste Everyone, Let's build netflixGPT together!
+    <div>
+      <Body />
     </div>
   )
 }
 
-export default App
+export default App;
+
