@@ -49,7 +49,7 @@ NetflixGPT is a cutting-edge, AI-driven movie browsing experience built with **R
    - Stored hardcoded values in `utils/constants.js`  
    - Registered TMDb, created an API key, and added it to `constants.js`  
    - **Fetched "Now Playing" movies** from TMDb and stored them in Redux  
-
+ 
 ### 🏗 **Component Structure**
 ```
 - MainContainer
@@ -66,7 +66,7 @@ NetflixGPT is a cutting-edge, AI-driven movie browsing experience built with **R
 
 ✅ **Finding CDN:** (TMDB image URL) "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg"
 ---
-
+✅ **Seach Functionality:** Added search functionality while using GPT API
 ## 📌 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
