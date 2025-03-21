@@ -64,6 +64,7 @@ NetflixGPT is a cutting-edge, AI-driven movie browsing experience built with **R
 ✅ **YouTube Trailer Embed:** Auto-plays & mutes trailers  
 ✅ **Tailwind CSS:** Styled the MainContainer beautifully  
 
+✅ **Finding CDN:** (TMDB image URL) "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg"
 ---
 
 ## 📌 Installation & Setup
