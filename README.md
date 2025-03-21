@@ -10,7 +10,7 @@ NetflixGPT is an AI-driven movie browsing experience built with **React**, **Fir
 - **State Management:** Redux Toolkit
 - **Backend & Auth:** Firebase (Authentication, Firestore, Hosting)
 - **Deployment:** Firebase Hosting
-- **Movie Data:** TMDb API (or a similar database)
+- **Movie Data:** TMDb API (Free to access)
 
 ---
 
@@ -36,6 +36,33 @@ NetflixGPT is an AI-driven movie browsing experience built with **React**, **Fir
 ✅ **Firebase Hosting** for seamless production deployment.  
 ✅ **Secure & scalable backend** powered by Firebase.  
 
+✅ **Bug fixed:** Sign up user display name and profile picture update
+-- If any user is not logged in redirect /browse to login page and vice-versa
+
+✅ **Good Practice:** powered by Firebase.  
+
+- Unsubscribed to the onAuthStateChanged listener when the component unmounts to prevent memory leaks.
+
+     --whenever we see string eg: photoUrl use constant variable to store it and use it later
+     -- added hardcoded values to the utils/constants.js
+     -- registered TMDB & created an app and got the api key and added it to the constants.js
+     -- Got Data from TMDB nowplaying 
+     -- put this data in Redux store and use it in the component
+
+-  MainContainer
+      --VideoBackground
+      -- VideoTitle
+   -- Secondary Container
+      -- MovieList * n
+      -- Cards * n
+
+-- Custom hooks for now playing movie list API
+-- Created movieSlice
+-- update store woth movie data
+- planning for mainContainer and SecondaryContainer
+-- Fetch data from API and store it in Redux store
+-- Embeded the Youtube video and make it autoplay and mute
+-- Tailwind css to make mainContainer look awesome
 ---
 
 ## 📌 Installation & Setup
