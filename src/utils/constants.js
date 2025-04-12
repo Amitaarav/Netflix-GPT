@@ -9,3 +9,17 @@ export const API_OPTIONS = {
     }
 }
 export const IMG_CDN = "https://image.tmdb.org/t/p/w500/"
+
+// 2. easily transferrable constant for language change
+export const SUPPORTED_LANGUAGES = [{identifier:"en",name:"English"},
+    {identifier:"hi",name:"Hindi"},
+    {identifier:"mr",name:"Marathi"},
+    {identifier:"ar",name:"Arabic"},
+    {identifier:"te",name:"Telugu"},
+    {identifier:"ta",name:"Tamil"},
+    {identifier:"es",name:"Spanish"},
+    {identifier:"fr",name:"French"},
+    {identifier:"bn",name:"Bengali"},
+    {identifier:"ru",name:"Russian"},
+
+]
